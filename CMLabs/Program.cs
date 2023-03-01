@@ -132,22 +132,4 @@ namespace CMLab1_2
 }
 
 
-//void modification_method_Newton() // Модифицированный Метод Ньютона
-//{
-//    int n = 0;
-//    float x0 = ::x,
-//    x = x0;
-//    do
-//    {
-//        z = x; // z - это Xn
-//        y = x - F(x) / proizvodnayaF(x0); // y - это Xn + 1
-//        mod1 = fabs(y - z);
-//        mod2 = fabs(F(y));
-//        x = y;
-//        cout << "|" << setw(5) << n << setw(5) << "|" << setw(12) << z << setw(5) << "|" <<
-//             setw(12) << y << setw(5) << "|" << setw(14) << mod1 << setw(8) << "|" << setw(14) << mod2 << setw(8)
-//             << "|" << endl;
-//        n += 1;
-//    } while ((mod1 > eps) || (mod2 > d));
-//}
 
