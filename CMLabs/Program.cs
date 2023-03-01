@@ -30,7 +30,7 @@ namespace CMLab1_2
 
             Console.WriteLine(
                 "{0, 5}   ||{1, 25}   ||{2, 25}   ||{3, 25}   ||{4, 25}",
-                    "n", "Xn", "Xn+1", "|Xn - Xn+1|", "|F(Xn+1)|\n" + underline + "\n"
+                    "n", "Xn", "Xn+1", "|Xn - Xn+1|", "     |F(Xn+1)|\n" + underline + "\n"
             );
 
             do
@@ -62,7 +62,7 @@ namespace CMLab1_2
 
             Console.WriteLine(
                 "{0, 5}   ||{1, 25}   ||{2, 25}   ||{3, 25}   ||{4, 25}",
-                    "n", "Xn", "Xn+1", "|Xn - Xn+1|", "|F(Xn+1)|\n" + underline + "\n"
+                    "n", "Xn", "Xn+1", "|Xn - Xn+1|", "     |F(Xn+1)|\n" + underline + "\n"
             );
 
             do
@@ -96,7 +96,7 @@ namespace CMLab1_2
 
             Console.WriteLine(
                 "{0, 5}   ||{1, 25}   ||{2, 25}   ||{3, 25}   ||{4, 25}",
-                    "n", "Xn", "Xn+1", "|Xn - Xn+1|", "|F(Xn+1)|\n" + underline + "\n"
+                    "n", "Xn", "Xn+1", "|Xn - Xn+1|", "     |F(Xn+1)|\n" + underline + "\n"
             );
 
             do
@@ -120,12 +120,11 @@ namespace CMLab1_2
         {
             Console.WriteLine("\nМетод простых итераций\n");
             SimpleImplicationsMethod();
-            Console.WriteLine();
 
-            Console.WriteLine("\nМетод Ньютона\n");
+            Console.WriteLine("\n\n\nМетод Ньютона\n");
             NewtonMethod();
 
-            Console.WriteLine("\nМодифицированный метод Ньютона\n");
+            Console.WriteLine("\n\n\nМодифицированный метод Ньютона\n");
             NewtonModificationMethod();
         }
     }
